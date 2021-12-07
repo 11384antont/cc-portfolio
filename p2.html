@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YeonSeo Lee | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Yeon Seo Lee</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+        <li>Project <a href="p10.html">#10: Sousveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <!-- 1. give your project  a titile -->
+
+      <h1>
+        Face Generator: Emotions!
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400px"
+          height="400px"
+          src="https://preview.p5js.org/leey921/embed/9IGlEL0bE"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+      <p>
+        My friends describe me as a very active and bright person, but they also
+        say I look very calm when I'm not with other people. In this face
+        generator project, I tried to show these two expressions using
+        random/mousePress/mouseX & Y.
+      </p>
+      <p>
+        <a href="https://editor.p5js.org/leey921/sketches/9IGlEL0bE">Link to Code</a>
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I drew a simple sketch on the grid template before I started coding. I
+        wanted to express the emotions by not only through the face emotions,
+        but also with colors and the shape of the face.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FKakaoTalk_Image_2021-09-14-13-32-57.jpeg?v=1631640787760"
+        />
+      </div>
+
+      <p>
+        After I did the sketching, I searched for ways to code the interactions
+        I was thinking for, changing the shape of the face as the mouse moves
+        and changing the eyes when the face is clicked. For the face morph, I
+        used mouseX and mouseY data to stretch multiple ellipses. Then, I gave
+        the individual ellipses an angle so if I added noStroke to the drawing,
+        it would look like as if the face shape was changing. For the face
+        emotions, I used mousePressed and if/else so the sketch would show two
+        face emotions.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        It was an interesting experiment to do. I tackled down the code for the
+        example project by Nicky Du and learned a lot from doing so. I do want
+        to make the shape of the flower other than using multiple ellipses, but
+        I coulded do so because it was difficult to draw that particular shape
+        on p5.js, and I wasn't able to do the morphing. I hope that I will be
+        able to morph some shapes afterwards, so the shape will also look like a
+        flower when the mouse is placed on the (200~400) area.
+      </p>
+
+      <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        This project was created based on the
+        <a href="https://editor.p5js.org/nicky.jpg/sketches/wOwZ4mUPp"
+          >Face Generator2</a
+        >
+        by Nicky Du
+      </p>
+    </div>
+  </body>
+</html>

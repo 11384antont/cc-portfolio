@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YeonSeo Lee | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Yeon Seo Lee</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+        <li>Project <a href="p10.html">#10: Sousveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Exquisite Corpse
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="400px"
+          height="600px"
+          src="https://preview.p5js.org/leey921/present/kgLXovbco"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+      <p>
+        Head (Me: Childhood me dressed up as a witch for halloween), Upper Body
+        (Sahiti: Dancing Skeleton), Lower Body (Lawrence: Drew a squid while
+        eating calamari)
+      </p>
+      <p>
+        <a href="https://editor.p5js.org/leey921/sketches/kgLXovbco">
+          Link to Code
+        </a>
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        We first met through Discord and shared our sketches and brief
+        background stories related to the sketches. Then we each got other
+        people's sketches' body parts.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          style="width:300px;height:300px;"
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FArtboard%20%E2%80%93%201.png?v=1632888881765"
+        />
+      </div>
+
+      <p>
+        What I found interesting in Sahiti's drawing was that the hand was cut
+        off. Looking at the hand, I decided to use it in my design. I planned to
+        simply sketch out the body, but use the hand as a mouse cursor that
+        changes at different parts of the screen. I designed different cursors
+        -- a hand with skin, a hand with bones, and a star (I didn't know what
+        kind of hand I should design for a squid, so I went with the magical
+        theme).
+      </p>
+
+      <p>
+        I first coded out the head part. I used multiple ellipses for the hair
+        because I thought it was the easier way to give hair motions as if there
+        was wind blowing. <br /><br />Then, I sketched the upper body, which is
+        the skeleton. Since most of the elements were repeated, I used "for" so
+        I won't have to type in the same code over and over again. I thought
+        about adding the arm part to the skeleton, but I decided to take it out
+        because I thought the mouse cursor was the highlgiht for my project.
+        <br /><br />
+        Then for the lower body. I initially thought of using curveVertex and
+        strokeWeight to make the tentacles move, but I found out that it was
+        nearly impossible for me to understand the sample codes I found. I saved
+        a copy of the code for the future me to understand, and used plain
+        ellipses to make the tentacles, just like the hair.
+        <br /><br />
+        Then I used if-else for the mouse cursor. I divided the screen into
+        three equal sections so the themes would match. After making the cursor,
+        I added backgrounds to enhance the theme of the project.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        It was interesting to learn about personalizing functions. Last week I
+        did use it for decoration, but didn't fully understand why the code was
+        in a different function. Also, it was a great fun to share drawings with
+        the group and try using the sketches to design a project. I honestly
+        still don't understand sin and cos (I learned it in High School but now
+        I forgot about it). My next goal is to now understand how sin and cos is
+        used.
+      </p>
+
+      <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        Star Example
+        <a href="https://p5js.org/examples/form-star.html">Star | p5.js</a>
+        from p5.js reference website
+      </p>
+    </div>
+  </body>
+</html>

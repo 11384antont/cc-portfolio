@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YeonSeo Lee | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Yeon Seo Lee</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+        <li>Project <a href="p10.html">#10: Sousveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Autobiographical Game
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="600px"
+          height="600px"
+          src="https://preview.p5js.org/leey921/embed/IXANZLDdW"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+      <p>
+        I am that kind of a person who NEVER leaves the phone alone. I always
+        have my phone with me, any time and any where. I suppose it’s sort of a
+        bad habit. I decided to track how I talk to other people. Is it through
+        the phone? Social media? How many people do I talk with in person? Also,
+        I decided to count the number of scam calls I get since I started to get
+        A LOT of scam calls and messages after I came here.
+        <br /><br />
+        Starting from the top right, the sections represent the dates, which is
+        Wednesday, Thursday, Friday, Saturday and Sunday. Press on the buttons
+        below to see the data!
+      </p>
+      <p>
+        <a href="https://editor.p5js.org/leey921/sketches/IXANZLDdW">
+          Link to Code
+        </a>
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I first started off with collecting my data. I honestly didn’t think
+        about the design first. So I separated the categories to 4, which were
+        online(meaning social media and chat), in person, phone calls and scam
+        calls. Other data turned out as I thought, but it was interesting to see
+        that I didn’t receive any scam calls or messages on the weekend.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FScreen%20Shot%202021-10-14%20at%2010.19.23%20PM.png?v=1634264695951"
+        />
+      </div>
+
+      <p>
+        I then thought of the design, and I came up with a round graph, showing
+        different data sets when I push a button. I thought about animating
+        them, too. In the middle, I was planning to add icons to show which data
+        the user is looking at.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          style="width:300px;height:300px;"
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FFBtRhnLXsAEU7k9.jpeg?v=1634265719749"
+        />
+        <img
+          style="width:300px;height:300px;"
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FFBtReaAXMA0l2Qf.jpeg?v=1634265716211"
+        />
+      </div>
+
+      <p>
+        Using the array to insert data was not complicated. However, making the
+        buttons work was not as easy as I thought. It may be because I didn’t
+        know which keywords to search for, but I was stuck with making the
+        buttons for a long time. I wish I have snapshots of all the attempts I
+        had. I tried using createButton, mouseClick, and more, but for some
+        reason they did not work. So I ended up using if to set up the range and
+        to use mouseIsPressed so the ellipse could act as a button. I couldn’t
+        animate my graph as I wished it to and the design is slightly off, but I
+        was VERY happy that I figured out a way to make the buttons work.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        From this project, I learned that I started to communicate with more
+        people online. It’s probably because now I’m in New York and most of my
+        friends are in Korea or at other parts of America. Since I spent way too
+        much time figuring out how to make buttons through p5js, I wasn’t able
+        to add certain factors that would allow the users to easily read the
+        data, like the week and numbers. Also, I think there might be a more
+        efficient way to visualize this data, which looks more like a bar chart.
+      </p>
+
+      <!-- 5. reflection -->
+    </div>
+  </body>
+</html>

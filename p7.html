@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YeonSeo Lee | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Yeon Seo Lee</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+        <li>Project <a href="p10.html">#10: Sousveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Autobiographical Game
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="600px"
+          height="400px"
+          src="https://preview.p5js.org/leey921/present/BFcpfkiGn"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+      <p>
+        I love traveling, and food is always the first thing I consider when
+        planning for one. Through this game, I wanted to introduce some places I
+        really enjoyed!
+      </p>
+      <p>
+        <a href="https://editor.p5js.org/leey921/sketches/BFcpfkiGn">
+          Link to Code
+        </a>
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <h2>
+        Proposal
+      </h2>
+
+      <p>
+        Will be updated (Character, Storyboard) When I got this assignment, I
+        wanted to create a fun, playful game. So I decided to go with the topic
+        that makes me happy, which is travel. But travel itself was to vague, so
+        I narrowed it down to the food that I ate during my trips. I first
+        listed the countries that I went to with the food I remember liking, and
+        chose Japan and Thailand as the mini game theme. I then drew a very
+        rough sketch of my game scenes. My game basically needed the following:
+      </p>
+      <ul>
+        <li>Intro: Choose Game</li>
+        <li>Mini Game x2: Japan and Thailand</li>
+        <li>Success Page: Try another game</li>
+        <li>Fail Page: Retry or try another game</li>
+      </ul>
+
+      <div class="fullwidth">
+        <img
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FMask%20Group%402x.png?v=1637185031426"
+        />
+      </div>
+
+      <h2>
+        Gray Boxing
+      </h2>
+      <p>
+        This took the most time doing. For the game, I needed keep track of how
+        many times the user won a game, allow them to restart the game, and
+        refresh the game so all the counts(time, points etc) went back to the
+        original values. The most difficult part for me during this part was the
+        reseting. When I playtested the gray box, I was not able to finish the
+        game as I planned it because the values did not reset. So I made it
+        reset by adding the reset code to every scene jump at the end of the
+        game.
+      </p>
+
+      <h2>
+        Designing
+      </h2>
+      <p>
+        After I did the gray boxing, I sketched the character that the user
+        would be moving. Then I designed how the scenes would look like. As I
+        designed the scenes, I realized I needed the instructions for the games
+        since each game uses different keys, Japan game uses the arrow key and
+        Thailand game uses mouse click.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          style="width:700px;height:300px;"
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FMask%20Group%202%402x.png?v=1637185395693"
+        />
+        <img
+          src="https://cdn.glitch.me/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2FScreen%20Shot%202021-11-17%20at%204.43.04%20PM.png?v=1637185401667"
+        />
+      </div>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        Since I had to think about coding, design, and the entire story of the
+        game, it was a tough assignment compared to the previous ones. However,
+        I think this project made me think about UX, which was not the thing
+        that I considered with the past works. I considered how the users would
+        react to the scene switches and checked they did not get lost between
+        them. It was my first time making a game, so I think there may be some
+        places where I can make the UX better. From now on, I will try to think
+        of how I can make the UX better with the assignments.
+      </p>
+
+      <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        Airplane & Pacman game
+        <a href="https://editor.p5js.org/xinemata/sketches/eGkYgu4hXp"
+          >Frogger</a
+        >
+        by Xin Xin
+      </p>
+      <p>
+        Pacman game
+        <a href="https://editor.p5js.org/tespin/sketches/qQItCBFxr"
+          >Fruit Escape</a
+        >
+        by tespin
+      </p>
+      <p>
+        Game Timer
+        <a href="https://editor.p5js.org/xinemata/sketches/eGkYgu4hXp"
+          >Countdown Timer</a
+        >
+        by marynotari
+      </p>
+
+      <p>
+        Game Music
+        <a
+          href="https://www.youtube.com/watch?v=DzFXGsRvSwA&list=PLuAIt_k_QocQ2g_hTSqdTffu6Fb_iXdWV&index=2"
+          >Itty Bitty 8 Bit</a
+        >
+        by Kevin MacLeod
+      </p>
+      <p>
+        Game Sound Effect
+        <a href="https://www.youtube.com/watch?v=RF-_G6qf37o&t=16s"
+          >Cartoon Touch 8bit Sound Effects</a
+        >
+        by DayDreamSound
+      </p>
+    </div>
+  </body>
+</html>
