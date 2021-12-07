@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>YeonSeo Lee | Critical Computation Portfolio</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- navigation menu -->
+    <div class="nav">
+      <h1>Yeon Seo Lee</h1>
+      <ul>
+        <li>Project <a href="p1.html">#1: Lost and Found</a></li>
+        <li>Project <a href="p2.html">#2: Face Generator</a></li>
+        <li>Project <a href="p3.html">#3: Experimental Clock</a></li>
+        <li>Project <a href="p4.html">#4: Exquisite Corpse</a></li>
+        <li>Project <a href="p5.html">#5: Optical Illusion</a></li>
+        <li>Project <a href="p6.html">#6: Data Portrait</a></li>
+        <li>Project <a href="p7.html">#7: Autobiographical Game</a></li>
+        <li>Project <a href="p8.html">#8: Experimental Camera</a></li>
+        <li>Project <a href="p9.html">#9: Consentful Interface</a></li>
+        <li>Project <a href="p10.html">#10: Sousveillance Tool</a></li>
+      </ul>
+    </div>
+
+    <!-- main content -->
+    <div class="content">
+      <h1>
+        Experimental Clock: THOR TIME!
+      </h1>
+
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+
+        <iframe
+          width="600px"
+          height="600px"
+          src="https://preview.p5js.org/leey921/embed/j-juEJAUc"
+        ></iframe>
+      </div>
+
+      <!-- 3. write a short description to describe what the work is about -->
+      <h1>
+        Description
+      </h1>
+      <p>
+        I have a friend who has a very adorable dog named Thor(pronounced
+        Ddoreu). When I talk to my friend, she often says, "Oh, I'm walking
+        Thor", "I have to feed him" and more. I got this impression that my
+        friend's time is scheduled to Thor. So I decided to make a clock just
+        for her, that is Thor himself.
+      </p>
+      <p>
+        <a href="https://editor.p5js.org/leey921/sketches/j-juEJAUc">Link to Code</a>
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Design Process
+      </h1>
+
+      <p>
+        I first go a picture of Thor from my friend(thankfully she allowed be to
+        post it here as well), and drew sketches. From my memory, she talked
+        about walking, feeding, and playing with Thor. But I added sleeping too,
+        because she often kept silent when Thor was asleep.
+      </p>
+
+      <div class="fullwidth">
+        <img
+          style="width:190px;height:190px;"
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2Frealthor.jpeg?v=1632273265702"
+        />
+        <img
+          style="width:190px;height:190px;"
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2Fthor2.jpeg?v=1632273148478"
+        />
+        <img
+          style="width:190px;height:190px;"
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2Fthor3.jpeg?v=1632273152670"
+        />
+        <img
+          style="width:190px;height:190px;"
+          src="https://cdn.glitch.com/4c7d511d-0346-455e-a5f5-b4ad44b0cb63%2Fthor1.jpeg?v=1632273140510"
+        />
+        <p>
+          The lovely model and my sketches
+        </p>
+      </div>
+
+      <p>
+        I thought the second sketch was nice, so I started off with that design.
+        But as I coded the things in, I realized that I won't have time to draw
+        everything I wanted, so I switched the design a bit. But of course, the
+        changed design was also very challenging for me due to the following
+        reasons,
+      </p>
+      <ol>
+        <li>1. Font needs to be added</li>
+        <li>2. Find a way to duplicate things</li>
+        <li>3. Make the objects to appear in order</li>
+        <li>4. Merge the images</li>
+      </ol>
+      <p>
+        For problem 1, I found out that we could upload font files to p5js, so
+        it was easily solved. Problem 2 was kind of difficult, but I found about
+        about the for property and used it to duplicate the stars. Now, for the
+        objects to appear in order, I used if, else, if-else. I divided the
+        minute into 4, making every objects to show up for 15 seconds. I
+        struggled with ranging the time though, instead of using 15&#60;=s &&
+        s&#60;30, I used 15&#60;=s&#60;30 and wondered why the code wasn't
+        working for hours.
+        <br />
+        <br />
+        The real problem was problem 4. I searched on Google to find solutions(I
+        couldn't ask for help to others because it was too late), but it seemed
+        like no one knew the solution to that. So, I decided to fake merge the
+        shapes. I had two identical set of code. One on the bottom I added only
+        strokes, and the other I added only fill. This method allowed be to make
+        the shapes as if they were a single shape.
+        <br />
+        <br />
+        After that, I just added motion to small elements so that people can
+        notice the sketch is actually functioning when the object is shown for
+        15 seconds.
+      </p>
+
+      <!-- 4. reflection -->
+      <h1>
+        Reflection
+      </h1>
+
+      <p>
+        This was tougher than I thought it would be. The ears and even the
+        sparkle was difficult to code. But through this project, I was able to
+        really understand how to decode the example codes I found and made it
+        into something I could use without searching for it next time. Also, it
+        was nice to see my friend get so happy about the project I did :)
+      </p>
+
+      <!-- 5. reflection -->
+      <h1>
+        Credits
+      </h1>
+
+      <p>
+        Star Example
+        <a href="https://p5js.org/examples/form-star.html"
+          >Star | p5.js</a
+        >
+        from p5.js reference website
+      </p>
+    </div>
+  </body>
+</html>
